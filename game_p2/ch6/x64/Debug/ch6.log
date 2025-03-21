@@ -1,0 +1,6 @@
+﻿  main.c
+C:\game_programming2\game_programming2\game_p2\ch6\main.c(27,3): error C2146: 구문 오류: ';'이(가) 'Sleep' 식별자 앞에 없습니다.
+C:\game_programming2\game_programming2\game_p2\ch6\main.c(26,3): warning C4550: 식이 인수 목록이 없는 함수로 계산됩니다.
+  player.c
+C:\game_programming2\game_programming2\game_p2\ch6\player.c(61,28): warning C4028: 정식 매개 변수 1이(가) 선언과 다릅니다.
+  코드를 생성하고 있습니다...
