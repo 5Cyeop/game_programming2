@@ -16,3 +16,6 @@ char ReValueStage(char (*stage)[STAGE_WIDTH + 1], COORD pos);
 BOOL MoveStage(char(*stage)[STAGE_WIDTH + 1], COORD playerPos, char exitC);
 
 void NextStage(char(*stage)[STAGE_WIDTH + 1], COORD stagePos);
+
+COORD PlusCOORD(COORD pos1, COORD pos2);
+

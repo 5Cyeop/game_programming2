@@ -1,5 +1,6 @@
 #include "console.h"
 #include "stage.h"
+#include "player.h"
 
 int main()
 {
@@ -22,9 +23,18 @@ int main()
 	printf("좌표 문자 값: %c\n", tempChar);
 	Sleep(1000);
 
+	Player player;
+
+	SetPlayerName(&player);
+	GetPlayerName(player);
+
+	COLOR color = RED;
+	SelectColor(color);
+	ShowPlayerInfo(&player);
+
 	if (MoveStage(stage1, tempPos, '@'))
 	{
-		system("cls");
+		//system("cls");
 		Sleep(500);
 		ShowStage(stage2, stagePos2);
 		GotoXY(10 + 20, 10);
