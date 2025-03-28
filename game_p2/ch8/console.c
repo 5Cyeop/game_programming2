@@ -1,4 +1,5 @@
 #include "console.h"
+#include "stage.h"
 
 void GotoXY(int x, int y)
 {
@@ -9,14 +10,13 @@ void GotoXY(int x, int y)
 
 void ShowStage(char(*stage)[STAGE_WIDTH + 1], COORD pos)
 {
+	setCursorVisible(false);
+
 	for (int i = 0; i < STAGE_HEIGHT; i++)
 	{
 		GotoXY(pos.X, pos.Y + i);
 		printf("%s", stage[i]);
 	}
-
-
-
 	
 }
 
@@ -35,12 +35,14 @@ BOOL MoveStage(char(*stage)[STAGE_WIDTH + 1], COORD playerPos, char exitC)
 
 	if (stageChar == exitC)
 	{
+
 		printf("탈출이 가능합니다.\n");
 
 		return true;
 	}
 	else
 	{
+
 		printf("탈출이 불가능합니다.\n");
 		return false;
 	}

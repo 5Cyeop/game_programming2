@@ -26,6 +26,12 @@ void GetPlayerName(Player player);
 
 void SetPlayerName(Player* playerP);
 
+void SetPlayerInput(Player* playerP);
+
+void SetPlayerRace(Player* playerP);
+
+void SetPlayer(Player* playerP);
+
 void SelectColor(COLOR color);
 
-void ShowPlayerInfo(Player* playerP);
+void ShowPlayerInfo(Player* playerP, COORD uiPOS);
