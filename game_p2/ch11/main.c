@@ -3,7 +3,7 @@
 #include <stdio.h>
 #include <stdbool.h>
 #include <conio.h>
-#include <string.h>
+
 
 typedef struct _Item
 {
@@ -21,18 +21,34 @@ void AddShopData(Item shop[], int* shopCount, const char* name, int price)
 
 void ShowShopTable(Item shop[], int count)
 {
+	printf("+------+------+------------------+\n");
+	printf("| 번호 | 가격 |    이름          |\n");
+	printf("+------+------+------------------+\n");
+	for (int i = 0; i < count; i++)
 	{
+		printf("| %4d | %4d | %-16s |\n", i + 1, shop[i].price, shop[i].name);
+	}
+
+	printf("+------+------+------------------+\n");
+
+	_getch();
+}
+
+void ShowInventoryTable(Item inventory[], int count)
+{
 		printf("+------+------+------------------+\n");
-		printf("| 번호 | 이름 |    가격          |\n");
+		printf("| 번호 | 가격 |    이름          |\n");
 		printf("+------+------+------------------+\n");
 		for (int i = 0; i < count; i++)
 		{
-			printf("| %4d | %4d | %-16s |\n", i + 1, shop[i].name, shop[i].price);
+			printf("| %4d | %4d | %-16s |\n", i + 1, inventory[i].price, inventory[i].name);
 		}
 
 		printf("+------+------+------------------+\n");
-	}
+
+		_getch();
 }
+
 
 void BuyItem(Item item, Item inventory[], int* count)
 {
@@ -41,20 +57,7 @@ void BuyItem(Item item, Item inventory[], int* count)
 	(*count)++;
 }
 
-void ShowInventoryTable(Item inventory[], int count)
-{
-	{
-		printf("+------+------+------------------+\n");
-		printf("| 번호 | 이름 |    가격          |\n");
-		printf("+------+------+------------------+\n");
-		for (int i = 0; i < count; i++)
-		{
-			printf("| %4d | %4d | %-16s |\n", i + 1, inventory[i].name, inventory[i].price);
-		}
 
-		printf("+------+------+------------------+\n");
-	}
-}
 
 void ShopPhase(Item shop[], Item inventory[], int count, int* inventoryCount, bool* gameQuit)
 {
