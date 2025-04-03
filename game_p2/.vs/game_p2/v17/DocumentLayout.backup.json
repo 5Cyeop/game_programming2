@@ -3,16 +3,8 @@
   "WorkspaceRootPath": "C:\\game_programming2\\game_programming2\\game_p2\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6E61EC25-D238-4021-9927-3BBF6CAE3EB3}|ch10\\ch10.vcxproj|C:\\game_programming2\\game_programming2\\game_p2\\ch10\\main.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{6E61EC25-D238-4021-9927-3BBF6CAE3EB3}|ch10\\ch10.vcxproj|solutionrelative:ch10\\main.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6E61EC25-D238-4021-9927-3BBF6CAE3EB3}|ch10\\ch10.vcxproj|C:\\game_programming2\\game_programming2\\game_p2\\ch10\\rank.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{6E61EC25-D238-4021-9927-3BBF6CAE3EB3}|ch10\\ch10.vcxproj|solutionrelative:ch10\\rank.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6E61EC25-D238-4021-9927-3BBF6CAE3EB3}|ch10\\ch10.vcxproj|C:\\game_programming2\\game_programming2\\game_p2\\ch10\\rank.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{6E61EC25-D238-4021-9927-3BBF6CAE3EB3}|ch10\\ch10.vcxproj|solutionrelative:ch10\\rank.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{BF8F63A6-11D5-4B04-9C73-E3C493FD4B2D}|ch11\\ch11.vcxproj|C:\\game_programming2\\game_programming2\\game_p2\\ch11\\main.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{BF8F63A6-11D5-4B04-9C73-E3C493FD4B2D}|ch11\\ch11.vcxproj|solutionrelative:ch11\\main.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,7 +14,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -30,41 +22,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "rank.c",
-              "DocumentMoniker": "C:\\game_programming2\\game_programming2\\game_p2\\ch10\\rank.c",
-              "RelativeDocumentMoniker": "ch10\\rank.c",
-              "ToolTip": "C:\\game_programming2\\game_programming2\\game_p2\\ch10\\rank.c",
-              "RelativeToolTip": "ch10\\rank.c",
-              "ViewState": "AgIAAHcAAAAAAAAAAADgv5EAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2025-04-02T07:03:22.722Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "rank.h",
-              "DocumentMoniker": "C:\\game_programming2\\game_programming2\\game_p2\\ch10\\rank.h",
-              "RelativeDocumentMoniker": "ch10\\rank.h",
-              "ToolTip": "C:\\game_programming2\\game_programming2\\game_p2\\ch10\\rank.h",
-              "RelativeToolTip": "ch10\\rank.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-04-02T07:03:01.816Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
               "Title": "main.c",
-              "DocumentMoniker": "C:\\game_programming2\\game_programming2\\game_p2\\ch10\\main.c",
-              "RelativeDocumentMoniker": "ch10\\main.c",
-              "ToolTip": "C:\\game_programming2\\game_programming2\\game_p2\\ch10\\main.c",
-              "RelativeToolTip": "ch10\\main.c",
-              "ViewState": "AgIAAC0AAAAAAAAAAAAAAEkAAAASAAAAAAAAAA==",
+              "DocumentMoniker": "C:\\game_programming2\\game_programming2\\game_p2\\ch11\\main.c",
+              "RelativeDocumentMoniker": "ch11\\main.c",
+              "ToolTip": "C:\\game_programming2\\game_programming2\\game_p2\\ch11\\main.c*",
+              "RelativeToolTip": "ch11\\main.c*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2025-04-02T06:56:57.26Z",
+              "WhenOpened": "2025-04-03T07:02:26.286Z",
               "EditorCaption": ""
             }
           ]
