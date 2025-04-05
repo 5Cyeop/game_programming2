@@ -3,9 +3,6 @@
 
 void GameStart()
 {
-	//setting player -> name, race, position
-	//output player in start stage
-
 	Player player;
 	COORD playerPos = { 10, 10 };
 	SetPlayer(&player);
@@ -39,9 +36,6 @@ void GameStart()
 	}
 }
 
-
-
-//program start
 int main()
 {
 	GameStart();

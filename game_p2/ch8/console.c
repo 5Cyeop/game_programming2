@@ -42,8 +42,6 @@ BOOL MoveStage(char(*stage)[STAGE_WIDTH + 1], COORD playerPos, char exitC)
 	}
 	else
 	{
-
-		printf("탈출이 불가능합니다.\n");
 		return false;
 	}
 }

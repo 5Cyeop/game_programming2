@@ -1,0 +1,40 @@
+#include "stage.h"
+#include "console.h"
+
+void setCursorVisible(bool enable)
+{
+	CONSOLE_CURSOR_INFO cursorInfo;
+	cursorInfo.bVisible = enable;
+	cursorInfo.dwSize = 1;
+	SetConsoleCursorInfo(GetStdHandle(STD_OUTPUT_HANDLE), &cursorInfo);
+}
+
+
+char stage_village[STAGE_HEIGHT][STAGE_WIDTH + 1] =
+{
+	"бсбсбсбсбсбсбсбсбсбсбсбсбсбсбсбсбсбсбсбсбсбсбсбсбсбсбсбсбсбсбсбсбсбсбсбсбсбсбсбс",
+	"бс                                                                            бс",
+	"бс                                                                            бс",
+	"бс                                                                            бс",
+	"бс                                                                            бс",
+	"бс                                                                            бс",
+	"бс                            быбыбыбыбыбыбы                                  бс",
+	"бс                            | |UPGRADE| |                                   бс",
+	"бс                          быбыбыбыбыбыбыбыбы                                бс",
+	"бс                            бс          бс                                  бс",
+	"бс                            бс          бс                                  бс",
+	"бс                            бс          бс                                  бс",
+	"бс                            бсбсбсв╚бсбсбс                                  бс",
+	"бс                                                                            бс",
+	"бс                                                                            бс",
+	"бс                                                                            бсбсбс",
+	"бс                                                                                 |",
+	"бс                                                                                 |",
+	"бс                                                                            бсбсбс",
+	"бс                                                                            бс",
+	"бс                                                                            бс",
+	"бс                                                                            бс",
+	"бс                                                                            бс",
+	"бсбсбсбсбсбсбсбсбсбсбсбсбсбсбсбсбсбсбсбсбсбсбсбсбсбсбсбсбсбсбсбсбсбсбсбсбсбсбсбс"
+};
+
