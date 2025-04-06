@@ -1,2 +1,5 @@
-﻿  game.c
+﻿  console.c
+C:\game_programming2\game_programming2\game_p2\ch8\console.c(13,2): warning C4013: 'setCursorVisible'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+  game.c
+  코드를 생성하고 있습니다...
   ch8.vcxproj -> C:\game_programming2\game_programming2\game_p2\x64\Debug\ch8.exe

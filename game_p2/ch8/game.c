@@ -27,7 +27,7 @@ void GameStart()
 
 		if (MoveStage(stage1, playerStagePos, '@'))
 		{
-			NextStage(stage2, stagePos);
+			ShowStage(stage2, stagePos);
 		}
 		
 		ShowPlayerInfo(&player, playerStatus);
